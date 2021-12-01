@@ -9,7 +9,6 @@ function HelloWord() {
             <Frase/>
             <Frase/>
         </div>
-        
     )
 }
 
