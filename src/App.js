@@ -1,5 +1,6 @@
 import React, { Component }  from 'react';
 import './App.css';
+import HelloWord from './components/HelloWord'
 
 function App() {
   //variaveis
@@ -20,8 +21,9 @@ const name = 'Natanael'
       <p>Olá, {newName}</p>
       <p>Soma:{ sum(1, 2)}</p>
       <img src={url} alt="Minha Imagem"/>
+      <HelloWord/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
